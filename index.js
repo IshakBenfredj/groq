@@ -1,6 +1,6 @@
 const Groq = require('groq-sdk');
 
-const groq = new Groq({apiKey:"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"});
+const groq = new Groq({apiKey:""});
 async function main() {
   const chatCompletion = await groq.chat.completions.create({
     "messages": [{
@@ -21,3 +21,31 @@ async function main() {
 }
 
 main();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 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
